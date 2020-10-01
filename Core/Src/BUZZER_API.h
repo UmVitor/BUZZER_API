@@ -1,7 +1,8 @@
 /*
  *  BUZZER_API.H
  *  This software is overwhelmed by the license MIT License, for any questions check the license file.
- *  Copyright (C) 2020  Vitor Barreto <vitorbarreto@ufmg.br>
+ *  Copyright (C) 2020  Vitor Barreto <vitorbarreto@ufmg.br> and Wagner Menezes Polycarpo <wagnosferato@gmail.com>
+ *	This API was developed as a work in the discipline of Embedded Systems Programming at UFMG Prof. Ricardo de Oliveira Duarte - Department of Electronic Engineering
  *  Version 1.0 - API with the following implemented functions:
 
     void MX_TIM2_Init(void);
