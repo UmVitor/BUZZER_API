@@ -12,7 +12,7 @@
 	void BUZZER_OSC(uint32_t period);
 	void BUZZER_OSC_ALARM(uint32_t period);
  *
- *  This API was made with MFS4NUCLEO_64_STMF103
+ *  This API was developed by with hardware: MFS4NUCLEO_64_STMF103 and  Softwares: STM32CubeMX and SW4STM32
  */
 #ifndef BUZZER_API_H_
 #define BUZZER_API_H_
