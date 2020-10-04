@@ -43,21 +43,21 @@ int main(void)
 	  uint8_t i;
 
 	  HAL_GPIO_WritePin(GPIOB, LED_D1_Pin, GPIO_PIN_SET);   // Turn on the green LED with no sound.
-	  HAL_Delay(7000);										// 7 seconds ON.
+	  HAL_Delay(7000);					// 7 seconds ON.
 	  HAL_GPIO_WritePin(GPIOB, LED_D1_Pin, GPIO_PIN_RESET); // Turn off the green LED.
 
 	  HAL_GPIO_WritePin(GPIOB, LED_D2_Pin, GPIO_PIN_SET);   // Turn on the yellow LED.
 	  HAL_Delay(1500);
-	  BUZZER_ON(TRUE);										//Turn ON the BUZZER with continuous sound.
+	  BUZZER_ON(TRUE);					//Turn ON the BUZZER with continuous sound.
 	  HAL_Delay(1500);
-	  BUZZER_OFF();											//Turn off the BUZZER
+	  BUZZER_OFF();						//Turn off the BUZZER
 	  HAL_GPIO_WritePin(GPIOB, LED_D2_Pin, GPIO_PIN_RESET); //Turn off the yellow LED
 
 	  HAL_GPIO_WritePin(GPIOB, LED_D3_Pin, GPIO_PIN_SET);   //Turn on the red LED.
-	  for (i=0; i<7 ; i++){									//Turn on the buzzer with two tones,
-		  BUZZER_OSC_ALARM(500);							//Inside the function exists two delays with 500ms of period, so the complete period of the function is 1s.
+	  for (i=0; i<7 ; i++){					//Turn on the buzzer with two tones,
+		  BUZZER_OSC_ALARM(500);			//Inside the function exists two delays with 500ms of period, so the complete period of the function is 1s.
 	  }
-	  for (i=0; i<4 ; i++){									//Turn on the buzzer with 1 tones and a silent period.
+	  for (i=0; i<4 ; i++){					//Turn on the buzzer with 1 tones and a silent period.
 		  BUZZER_OSC(300);
 	  }
 	  HAL_GPIO_WritePin(GPIOB, LED_D3_Pin, GPIO_PIN_RESET);	//Turn off the red LED.
