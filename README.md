@@ -31,12 +31,12 @@ Basically, this project emits different patterns of sounds warning when the pede
 
 ### Pin Association 
 
-PIN   | LABEL  | SIG
------ | ------ | ----------  
-PB5   | LED_D1 | GREEN LED
-PB4   | LED_D2 | YELLOW LED
-PB10  | LED_D3 | RED LED
-PA0   | BUZZER | BUZZER
+PIN   | LABEL  | CONFIG      | ID
+----- | ------ | ----------- | -----------  
+PB5   | LED_D1 | GPIO_OUTPUT | GREEN LED
+PB4   | LED_D2 | GPIO_OUTPUT | YELLOW LED
+PB10  | LED_D3 | GPIO_OUTPUT | RED LED
+PA0   | BUZZER | TIM2_CH1    | BUZZER
 
 
 
