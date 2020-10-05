@@ -2,20 +2,20 @@
  *  BUZZER_API.c
  *  This software is overwhelmed by the license MIT License, for any questions check the license file.
  *  Copyright (C) 2020  Vitor Barreto <vitorbarreto@ufmg.br> and Wagner Menezes Polycarpo <wagnosferato@gmail.com>
- *	This API was developed as a work in the discipline of Embedded Systems Programming at UFMG Prof. Ricardo de Oliveira Duarte - Department of Electronic Engineering "
- *	Version 1.0 - API with the following implemented functions:
+ *  This API was developed as a work in the discipline of Embedded Systems Programming at UFMG Prof. Ricardo de Oliveira Duarte - Department of Electronic Engineering "
+ *  Version 1.0 - API with the following implemented functions:
  *
-    void MX_TIM2_Init(void);
-	void MX_TIM2_Init2(void);
-	void BUZZER_ON(uint8_t select);
-	void BUZZER_OFF(void);
-	void BUZZER_OSC(uint32_t period);
-	void BUZZER_OSC_ALARM(uint32_t period);
+ *   	void MX_TIM2_Init(void);
+ *	void MX_TIM2_Init2(void);
+ *	void BUZZER_ON(uint8_t select);
+ *	void BUZZER_OFF(void);
+ *	void BUZZER_OSC(uint32_t period);
+ *	void BUZZER_OSC_ALARM(uint32_t period);
  *
  *
 
  *  the purpose of this API is to facilitate the use of buzzers in different applications.
- *   In this application we will use the TIMER TIM2 channel 1, setting its output as PWM.
+ *  In this application we will use the TIMER TIM2 channel 1, setting its output as PWM.
  *  This API was made with hardware: MFS4NUCLEO_64_STMF103 and  Softwares: STM32CubeMX and SW4STM32
  *
  *  Remember that:
