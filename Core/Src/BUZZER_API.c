@@ -20,8 +20,8 @@
  *
  *  Remember that:
  *   -	The internal clock configuration(HSI) was 8Mhz.
- *   -   The OUTPUT of signal PWM was settled in pin on board: PA0.
- *
+ *   -  The OUTPUT of signal PWM was settled in pin on board: PA0.
+ *   -  You can find an example of how to use this API in: https://github.com/UmVitor/BUZZER_API
  */
 #include "BUZZER_API.h"
 #include "main.h"
