@@ -29,6 +29,8 @@ Sound traffic light for blind people.
 
 Basically, this project emits different patterns of sounds warning when the pedestrian is allowed to advance or when the traffic light will close.
 
+You can find a video showing how this example works on the board in this [link][link_video].
+
 ### Pin Association 
 
 PIN   | LABEL  | CONFIG      | ID
@@ -52,3 +54,4 @@ RM0008 - Reference Manual STM32F103xx.
 [link_file1]: https://github.com/UmVitor/BUZZER_API/blob/master/Core/Src/BUZZER_API.c
 [link_file2]: https://github.com/UmVitor/BUZZER_API/blob/master/Core/Src/BUZZER_API.h
 [link_file3]: https://github.com/UmVitor/BUZZER_API/blob/master/Core/Src/main.c
+[link_video]: https://youtu.be/2w5s4GImOVo
