@@ -1,4 +1,7 @@
 # BUZZER_API
+## Intruduction
+This API was developed as a work in the discipline of Embedded Systems Programming at UFMG - Prof. Ricardo de Oliveira Duarte - Department of Electronic Engineering Library is developed and tested with Stm32F103RE (Nucleo 64 board) and.
+You can check the examples given.
 This repository contains a buzzer API in:
 
 [![file1]][link_file1]
@@ -15,7 +18,7 @@ Buzzer is a piezoelectric device that vibrates according to the frequency of the
 our goal is to set a timer that generates a PWM signal for the buzzer activation.
 
 ## How it works
-First the clock frequency of the 8Mhz nucleus in HSI was set. With this, the timer 2(TIM2) channel 1 was chosen, which was configured to operate as PWM output. In the development kit, the output of this signal is at the pin: PA0.
+First the clock frequency of the 8Mhz was set in the HSI oscillator. With this, the timer 2(TIM2) channel 1 was chosen, which was configured to operate as PWM output. In the development kit, the output of this signal is at the pin: PA0.
 Once this is done, we have configured the timer to generate a 1kHz or 500Hz PWM with a duty cycle of 50%. 
 
 ![alt text](https://raw.githubusercontent.com/UmVitor/BUZZER_API/master/Images/pwm.jpg)
@@ -27,7 +30,7 @@ You can easily calculate the timer parameters in this excel [spreadsheet][sheet]
 
 Sound traffic light for blind people.
 
-Basically, this project emits different patterns of sounds warning when the pedestrian is allowed to advance or when the traffic light will close.
+Basically, this project emits different patterns of sounds, warning when the pedestrian is allowed to cross, and when the traffic light turns red.
 
 You can find a video showing how this example works on the board in this [link][link_video].
 
