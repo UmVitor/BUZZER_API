@@ -1,6 +1,6 @@
 # BUZZER_API
 ## Intruduction
-This API was developed as a work in the discipline of Embedded Systems Programming at UFMG - Prof. Ricardo de Oliveira Duarte - Department of Electronic Engineering Library is developed and tested with Stm32F103RE (Nucleo 64 board) and.
+This API was developed as a work in the discipline of Embedded Systems Programming at UFMG - Prof. Ricardo de Oliveira Duarte - Department of Electronic Engineering Library is developed and tested with Stm32F103RB (Nucleo 64 board) and.
 You can check the examples given.
 This repository contains a buzzer API in:
 
