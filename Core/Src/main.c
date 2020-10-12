@@ -14,11 +14,11 @@
  * **Brief of how the application works**
  * So the idea is a sound traffic light for the visually impaired.
  * When the green LED is on, no sound is emitted, that means there is a flow of cars.
- * In the middle of the yellow LED period a sound signal r is emitted. Then the cycle is reset.
+ * In the middle of the yellow LED period a sound signal is emitted. 
  * I keep warning that the traffic light will close (interrupting the flow of cars).
  * When the red LED is on, a two-tone beep is emitted warning that there is no car flow, enabling pedestrian flow.
  * Just before turning off the red LED and turning on the green LED, a single-tone beep is emitted warning that the
- * traffic light will open.
+ * traffic light will open. Then the cycle is reset.
  *
  */
 /* Includes ------------------------------------------------------------------*/
